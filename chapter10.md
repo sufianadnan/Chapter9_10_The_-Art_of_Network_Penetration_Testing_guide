@@ -3,7 +3,8 @@
 ### Listing 10.1 Output of the net group command
 
 ```
-net group "Domain Admins" /domain
+run this on the raditz machine
+net group "Domain Admins" /domain 
 ```
 
 ```
